@@ -1,0 +1,13 @@
+import React from "react";
+import styles from "./icons.css";
+
+export function Oil() {
+  return (
+    <svg width="54" height="64" viewBox="0 0 54 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M53.3819 11.3743V7.62425H23.9194V0H7.98699V7.62425H0.618118V11.3743H3.91324V60.25H0.618118V64H53.3817V60.25H50.0866V11.3743H53.3819ZM11.737 3.75H20.1694V7.62425H11.737V3.75ZM46.3366 48.0859H7.66337V23.5386H46.3367V48.0859H46.3366ZM7.66337 60.25V51.8359H46.3367V60.25H7.66337ZM46.3366 19.7886H7.66337V11.3743H46.3367V19.7886H46.3366Z"
+        fill="white"
+      />
+    </svg>
+  );
+}

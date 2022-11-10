@@ -1,0 +1,132 @@
+.feedbackContainer {
+    padding: 86px 160px 80px 160px;
+    background-color: var(--grayF9);
+}
+
+.feedbackContainerTitle {
+    margin-bottom: 54px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-bottom: 58px;
+}
+
+.btnPrev {
+    position: absolute;
+    top: -100px;
+    right: 75px;
+}
+
+.btnNext {
+    position: absolute;
+    top: -100px;
+    right: 0;
+}
+
+.cardWrapper {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 545px;
+    min-height: 368px;
+    padding: 40px;
+    background-color: var(--white);
+}
+
+.cardWrapperInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardWrapperTitle {
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.cardWrapperParagraph {
+    width: 100%;
+    max-width: 246px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--gray56);
+}
+
+.cardWrapperText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.cardWrapperLink {
+    width: 100%;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: var(--blue);
+}
+
+.cardWrapperLink:hover {
+    color: var(--darkblue);
+}
+
+.feedbackBtn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 16px 64px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.btn:hover {
+    background-color: var(--darkblue);
+}
+
+@media(max-width: 1300px) {
+    .feedbackContainer {
+        padding: 86px 25px 80px 25px;
+    }
+}
+
+@media(max-width: 990px) {
+    .cardWrapper {
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 470px) {
+    .feedbackContainerTitle {
+        margin-bottom: 120px;
+    }
+
+    .btnPrev {
+        position: absolute;
+        top: -100px;
+        right: 0;
+        left: -75px;
+    }
+
+    .btnNext {
+        position: absolute;
+        top: -100px;
+        right: 0;
+        left: 75px;
+    }
+}

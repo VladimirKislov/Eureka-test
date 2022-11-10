@@ -1,0 +1,11 @@
+.btnSwiper:hover path {
+    stroke: var(--blue);
+}
+
+.btnSwiper:hover rect {
+    stroke: var(--blue);
+}
+
+.go:hover path {
+    stroke: var(--white);
+}

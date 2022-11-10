@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+  --black: #000000;
+  --gray56: #565656;
+  --blue: #098FCF;
+  --darkblue: #043C77;
+  --white: #FFFFFF;
+  --grayF9: #F9F9F9;
+  --grayE5: #E5E5E5;
+  --grayE7: #E7E7E7;
+  --grayD4: #D4D4D4;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: var(--white);
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  font-family: 'Montserrat', serif;
+}
+
+* {
+  color: var(--black);
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: all .2s ease;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+.slick-dots.slick-thumb {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.slick-dots.sli-dots li {
+  width: 4px;
+  height: 4px;
+  margin: 0 23px;
+  border-radius: 999px;
+  transition: all 0.5s ease-in-out;
+  will-change: width;
+  background-color: var(--grayD4);
+}
+
+.slick-track {
+  display: flex !important;
+  align-items: flex-end !important;
+}
+
+.slick-dots.sli-dots {
+  position: absolute;
+  bottom: -105px;
+}
+
+.slick-dots.sli-dots li:nth-child(4),
+.slick-dots.sli-dots li:nth-child(5),
+.slick-dots.sli-dots li:nth-child(6) {
+  display: none;
+}
+
+.slick-dots.sli-dots li.slick-active {
+  width: 8px;
+  height: 8px;
+  background-color: var(--blue);
+}
+
+.slick-slide {
+  margin: 0 10px !important;
+}
+
+.slick-list {
+  margin: 0 -10px !important;
+}
+
+.p-slider {
+  top: -17px !important;
+}

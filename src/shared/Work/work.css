@@ -1,0 +1,105 @@
+.workContainer {
+    padding: 100px 160px;
+}
+
+.workTitle {
+    margin-bottom: 48px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.workCard {
+    display: grid;
+    grid-template-columns: minmax(310px, 353px) minmax(310px, 353px) minmax(310px, 353px);
+    gap: 31px;
+    justify-content: center;
+}
+
+.card3,
+.card2,
+.card1 {
+    padding: 30px;
+    background-color: var(--darkblue);
+}
+
+.cardWrapperImg {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.cardWrapperImgTime {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: var(--white);
+}
+
+.cardWrapperImgTime a {
+    padding-top: 17px;
+}
+
+.cardWrapperTitle {
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 26px;
+    color: var(--white);
+}
+
+.cardWrapperText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--white);
+}
+
+.cardWrapperTextCard {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--white);
+}
+
+.cardWrapperTextPs {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: var(--white);
+}
+
+@media(max-width: 1300px) {
+    .workContainer {
+        padding: 100px 25px;
+    }
+}
+
+@media(max-width: 1040px) {
+    .workCard {
+        grid-template-columns: minmax(310px, 353px) minmax(310px, 353px);
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .card3 {
+        grid-row: 2 / 3;
+    }
+}
+
+@media(max-width: 700px) {
+    .workCard {
+        grid-template-columns: minmax(260px, 353px);
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .card2 {
+        grid-row: 2 / 3;
+    }
+
+    .card3 {
+        grid-row: 3 / 4;
+    }
+}

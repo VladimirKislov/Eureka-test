@@ -1,0 +1,9 @@
+.footerContainer {
+    width: 100%;
+    max-width: 1440px;
+    height: 628px;
+    margin: 0 auto;
+    background-image: url('../../images/Image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

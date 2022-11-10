@@ -1,0 +1,120 @@
+.formContainer {
+    padding: 74px 160px;
+    background-color: var(--grayF9);
+}
+
+.formTitle {
+    margin-bottom: 34px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.formContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formWrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 409px;
+    margin-right: 71px;
+}
+
+.formWrapperLabel {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.formWrapperInput {
+    height: 46px;
+    padding: 13px 16px 13px 15px;
+    border: 1px solid var(--grayD4);
+}
+
+.formWrapperInput:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.formInfo {
+    width: 100%;
+    max-width: 638px;
+    padding: 40px;
+    background-color: var(--white);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.formInfoTitle {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.formInfoWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    border-top: 1px solid var(--grayE7);
+}
+
+.formInfoWrapperTitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.formInfoWrapperText {
+    width: 100%;
+    max-width: 346px;
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--gray56);
+}
+
+.formInfoBtn {
+    padding: 16px 68px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.formInfoBtn:hover {
+    background-color: var(--darkblue);
+}
+
+.slide {
+    position: absolute;
+    top: 10px;
+}
+
+@media(max-width: 1300px) {
+    .formContainer {
+        padding: 74px 25px;
+    }
+}
+
+@media(max-width: 1040px) {
+
+    .formInfoWrapper,
+    .formContent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formWrapper {
+        width: 100%;
+        max-width: 638px;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+}
